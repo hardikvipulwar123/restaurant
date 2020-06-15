@@ -1,0 +1,53 @@
+{
+  "restaurant": [
+    {
+      "id": 1,
+      "name": "Domino's",
+      "address": "Kharghar",
+      "rating": "4.5",
+      "email": "domino's.com"
+    },
+    {
+      "id": 2,
+      "name": "Mozo pizza",
+      "address": "Kharghar",
+      "rating": "4.5",
+      "email": "mozo.com"
+    },
+    {
+      "name": "KFC  ",
+      "email": "kfc.com",
+      "address": "Kharghar",
+      "rating": "2.0",
+      "id": 3
+    },
+    {
+      "name": "CCD  ",
+      "email": "ccd.com",
+      "address": "Dombivali",
+      "rating": "4.5",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "name": "Haldiram  ",
+      "address": "Mumbai",
+      "rating": "4.5",
+      "email": "Haldiram.com"
+    },
+    {
+      "id": 6,
+      "name": "Panino ",
+      "address": "Thane",
+      "rating": "4.5",
+      "email": "Panino.com"
+    },
+    {
+      "name": "chill n grill",
+      "email": "chill@gmail.com",
+      "address": "thane",
+      "rating": "5.1",
+      "id": 7
+    }
+  ]
+}
