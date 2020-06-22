@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee ,faSearch,faList,faHome,faRestroom,faPlus} from '@fortawesome/free-solid-svg-icons'
+ 
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -21,14 +23,14 @@ function App() {
     <div className="App">
       <Router>
         <Navbar bg="light" expand="lg">
-          <Navbar.Brand href="#home">RestroHub</Navbar.Brand>
+          <Navbar.Brand href="#home"><FontAwesomeIcon icon={faRestroom}></FontAwesomeIcon>RestroHub</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-              <Nav.Link href="#home"><Link to="/">Home</Link></Nav.Link>
-              <Nav.Link href="#link"><Link to="/list">List</Link></Nav.Link>
-              <Nav.Link href="#link"><Link to="/create">Create</Link></Nav.Link>
-              <Nav.Link href="#link"><Link to="/search">Search</Link></Nav.Link>
+              <Nav.Link href="#home"><Link to="/"><FontAwesomeIcon icon={faHome}></FontAwesomeIcon> Home</Link></Nav.Link>
+              <Nav.Link href="#link"><Link to="/list"><FontAwesomeIcon icon={faList}></FontAwesomeIcon> List</Link></Nav.Link>
+              <Nav.Link href="#link"><Link to="/create"><FontAwesomeIcon icon={faPlus}></FontAwesomeIcon> Create</Link></Nav.Link>
+              <Nav.Link href="#link"><Link to="/search"><FontAwesomeIcon icon={faSearch}></FontAwesomeIcon> Search</Link></Nav.Link>
                
             </Nav>
 

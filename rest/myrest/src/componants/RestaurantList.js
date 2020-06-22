@@ -1,16 +1,12 @@
 import React, { Component } from 'react';
 import { Table } from 'react-bootstrap';
-
-import {
-    
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEdit } from '@fortawesome/free-solid-svg-icons'
+ 
+import {    
     Link
   } from 'react-router-dom';
   
-
-
-
-
-
 
 class RestaurantList extends Component {
     constructor() {
@@ -59,7 +55,7 @@ class RestaurantList extends Component {
                                                 <td>{item.address}</td>
                                                 <td>{item.rating}</td>
                                                 <td>{item.email}</td>
-                                                <td>  <Link to={"/update/"+item.id}>Edit</Link> </td>                                             
+                                                <td>  <Link to={"/update/"+item.id}><FontAwesomeIcon icon={faEdit}></FontAwesomeIcon>Edit</Link> </td>                                             
                                             </tr>
                                         )
                                     }

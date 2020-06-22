@@ -48,6 +48,20 @@
       "address": "thane",
       "rating": "5.1",
       "id": 7
+    },
+    {
+      "name": "vipulwar",
+      "email": "vipulwar@gmail.com",
+      "address": "nagpur",
+      "rating": "4.5",
+      "id": 8
+    },
+    {
+      "name": "namrata",
+      "email": "vipulwar@gmail.com",
+      "address": "nagpur",
+      "rating": "4.5",
+      "id": 9
     }
   ]
 }
