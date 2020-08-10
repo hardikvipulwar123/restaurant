@@ -23,7 +23,7 @@ class RestaurantCreate extends Component {
               if(this.state.name==null && this.state.rating==null && this.state.address==null && this.state.email==null)
               alert(" Restaurant is Not Registered")
               else
-              alert("Restaurant is Registered")
+              alert("Restaurant is Registered by hardik")
           })
       })
     }
