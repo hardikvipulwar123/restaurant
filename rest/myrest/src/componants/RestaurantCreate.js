@@ -21,7 +21,7 @@ class RestaurantCreate extends Component {
       }).then(result=>{
           result.json().then((resp)=>{
               if(this.state.name==null && this.state.rating==null && this.state.address==null && this.state.email==null)
-              alert(" Rest is Not Registered")
+              alert(" Rest is Not Registered ")
               else
               alert("Restaurant is  now Registered")
           })
